@@ -1,1 +1,1 @@
-# my-terminal-configuration
+### My Terminal Configuration
