@@ -6,3 +6,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # Fuzzy finder from https://github.com/junegunn/fzf
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install --key-bindings --completion --update-rc
+# Configure zsh in byobu
+grep /bin/zsh ~/.byobu/.tmux.conf || (echo "set -g default-shell /bin/zsh" >> ~/.byobu/.tmux.conf; echo "set -g default-command /bin/zsh" >> ~/.byobu/.tmux.conf)

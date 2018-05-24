@@ -2,3 +2,6 @@
 
 #### Installation
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/therahulprasad/my-terminal-configuration/master/init.sh)"`
+
+#### TODO
+[x] Configure zsh for byobu
