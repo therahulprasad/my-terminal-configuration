@@ -5,5 +5,5 @@
 
 #### Todo
 [x] Configure zsh for byobu  
+[x] Install z from https://github.com/rupa/z  
 [ ] Install Oh-My-Zsh silently  
-[ ] Install z from https://github.com/rupa/z  
